@@ -1,0 +1,27 @@
+{
+  "schema": "minimax_h3.ref2va-onpolicy-set/v1",
+  "complete": true,
+  "target_free": true,
+  "num_instructions": 2,
+  "records_file": "records.jsonl",
+  "records_sha256": "15ab8b668248eaf256b5ee3b332ce5650d1c8af56a1d99025bbd915c06b8025e",
+  "sources": {
+    "condition_root": "../qwen_conditions",
+    "condition_manifest_sha256": "9fa88c0aeac44feb84700792ae0faa7f7a02d461005b423094546a59c3ea3afd",
+    "compact_av_root": "../reference_av"
+  },
+  "counts": {
+    "duration_seconds": {
+      "5": 2
+    },
+    "task_type": {
+      "camera_shot_transfer": 1,
+      "composition_transfer": 1
+    }
+  },
+  "integrity": {
+    "condition_payload_hashes_verified": true,
+    "compact_av_payload_hashes_verified": true,
+    "sampled_payload_audit_required": false
+  }
+}

@@ -1,0 +1,30 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+.venv/
+LOCAL_DEV/
+# Cluster submission infrastructure stays local.
+/aml/
+/amlt/
+outputs/
+checkpoints/
+ckpt/
+wandb/
+.env
+credentials/
+/models/
+*.safetensors
+*.pth
+*.pt
+
+# Binary preview inputs and H3 conditions are restored by download_resources.py.
+/assets/prompt_samples/**/*.png
+/assets/prompt_samples/**/*.npy
+
+# Local validation tests
+/tests/
+
+# Local coding-agent instructions.
+/AGENTS.md

@@ -1,0 +1,51 @@
+{
+  "clip_id": "53be22eb-97ff-41a6-ac2a-b4425d57edc1.mp4",
+  "file": "records/53be22eb-97ff-41a6-ac2a-b4425d57edc1.safetensors",
+  "metadata_file": "records/53be22eb-97ff-41a6-ac2a-b4425d57edc1.json",
+  "reference_geometry": {
+    "aspect_bucket": "16:9",
+    "audio_latent_shape": [
+      2,
+      32,
+      207
+    ],
+    "duration_seconds": 5,
+    "effective_duration_seconds": 5.166666666666667,
+    "fps": 24.0,
+    "height": 576,
+    "num_frames": 124,
+    "resolution_profile": "16x9_preview_1024x576",
+    "resolution_tier": "preview",
+    "video_latent_shape": [
+      24,
+      37,
+      36,
+      64
+    ],
+    "width": 1024
+  },
+  "reference_id": "53be22eb-97ff-41a6-ac2a-b4425d57edc1",
+  "schema": "minimax_h3.ref2va-compact-av/v1",
+  "sha256": "955bdc4f76fa0ef5d2b9170546cb77198f1128c78505b9543a5a138fca27048d",
+  "tensors": {
+    "ref2va_audio": {
+      "dtype": "torch.float16",
+      "finite": true,
+      "shape": [
+        2,
+        32,
+        207
+      ]
+    },
+    "ref2va_video": {
+      "dtype": "torch.float16",
+      "finite": true,
+      "shape": [
+        24,
+        37,
+        36,
+        64
+      ]
+    }
+  }
+}

@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "smd-reference"
+version = "0.1.0"
+description = "Few-step diffusion distillation reference implementation"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[tool.setuptools.packages.find]
+include = ["smd*", "tools*"]
+
+[tool.ruff]
+line-length = 120
+exclude = [
+    "smd/networks/MiniMaxH3/autoencoder_kl_minimax_h3*.py",
+    "smd/networks/MiniMaxH3/context_parallel.py",
+    "smd/networks/MiniMaxH3/layout.py",
+    "smd/networks/MiniMaxH3/scheduler.py",
+    "smd/networks/MiniMaxH3/transformer.py",
+    "smd/networks/Trellis2/decoders.py",
+    "smd/networks/Trellis2/sc_vaes",
+    "smd/networks/Trellis2/sparse_structure.py",
+    "smd/networks/Trellis2/sparse",
+    "smd/networks/Trellis2/representations",
+    "smd/utils/rendering",
+]
+
+[tool.setuptools.package-data]
+"smd.configs" = ["*.json"]

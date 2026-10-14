@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "family": "hunyuan3d_shape",
+  "model_id": "tencent/Hunyuan3D-2.1",
+  "records": [
+    {
+      "id": "001",
+      "files": {
+        "image": {
+          "path": "001/image.png",
+          "sha256": "620e943c986b27204b44eeec757a0a2e1ce5649f8751ca7f199a387aeb91a5a2"
+        },
+        "reference_latents": {
+          "path": "001/reference.pt",
+          "sha256": "f19c5b5face0a5eb7a82ae6d36a893db9d02c2eac1ba06650b0681cffb330663"
+        },
+        "reference_render": {
+          "path": "001/reference.png",
+          "sha256": "654f248f946bc3348e3f7a3ee7ef842423491a285fc310e008d7ed7d515ad846"
+        }
+      }
+    },
+    {
+      "id": "002",
+      "files": {
+        "image": {
+          "path": "002/image.png",
+          "sha256": "ebfe85f51e4e870152607be24936776663913d9c4f8c94e483c4144770877f3a"
+        },
+        "reference_latents": {
+          "path": "002/reference.pt",
+          "sha256": "969a578debfae32113c5f34ec02bf8ac1e03bf4bc1fd0a3eb92e16735c6253a3"
+        },
+        "reference_render": {
+          "path": "002/reference.png",
+          "sha256": "5e20f8ffc392c7123ab73c39361e0d38ffefeb06dcf2782dbfb1bda4074dee0b"
+        }
+      }
+    },
+    {
+      "id": "003",
+      "files": {
+        "image": {
+          "path": "003/image.png",
+          "sha256": "f8173bcedde11ba2fc09cdf6b208869a4869552b013d2827cff4e07bf4130adb"
+        },
+        "reference_latents": {
+          "path": "003/reference.pt",
+          "sha256": "9f4f85f585db2ab9590508e4193ff2a406310d40fcf1ac01d934af2d1797b4ce"
+        },
+        "reference_render": {
+          "path": "003/reference.png",
+          "sha256": "893b23a0e6c8d0cdfc25e514d07b601c35598cd6d64abd23d63103e011200745"
+        }
+      }
+    },
+    {
+      "id": "004",
+      "files": {
+        "image": {
+          "path": "004/image.png",
+          "sha256": "2e4159488025dfcea74dce3ff6ee8f2000bcfee34fbe588eaf39cad6d5fb264f"
+        },
+        "reference_latents": {
+          "path": "004/reference.pt",
+          "sha256": "567a403e98dedfb217f091793c95c362e8ca7b6495ee645d98e73302ceb65b16"
+        },
+        "reference_render": {
+          "path": "004/reference.png",
+          "sha256": "0c6e5b859f47b30e54457198e26c571c96cb44175bc747b5684b1129e9e9b29f"
+        }
+      }
+    },
+    {
+      "id": "005",
+      "files": {
+        "image": {
+          "path": "005/image.png",
+          "sha256": "abe66c2ef781f7144c575c7296160c9fb9fd378372e47f7729697e09f0140599"
+        },
+        "reference_latents": {
+          "path": "005/reference.pt",
+          "sha256": "4a3c3ba037bbf2fdedee01f8c672e44e99bb6df4ca3baa1025c01e0414fb6ab5"
+        },
+        "reference_render": {
+          "path": "005/reference.png",
+          "sha256": "e6ddc0fa3f93d649cbee6670a3521d738df5ed6c434432f413af17e556a851e8"
+        }
+      }
+    },
+    {
+      "id": "006",
+      "files": {
+        "image": {
+          "path": "006/image.png",
+          "sha256": "e4d45434608124cf7b98779c63b07eb321a4733100536a4b84f80d7aab9df4c1"
+        },
+        "reference_latents": {
+          "path": "006/reference.pt",
+          "sha256": "927781b5d8d8f09bcff0b71f56ede2746660d365774f502dc885bb2ae3997f67"
+        },
+        "reference_render": {
+          "path": "006/reference.png",
+          "sha256": "79a54dbe6d0e708d779fb19d1fd60b95793f84eaefe0dca0431915f4213ecbd3"
+        }
+      }
+    },
+    {
+      "id": "007",
+      "files": {
+        "image": {
+          "path": "007/image.png",
+          "sha256": "cc0577a7ea4438f38f8832ee7093e4d98078ce8562fb75e0a22f008c5a762a42"
+        },
+        "reference_latents": {
+          "path": "007/reference.pt",
+          "sha256": "986fd70da4809024538904151c6e70ace4977c62966c48e0f279bccbad7188bf"
+        },
+        "reference_render": {
+          "path": "007/reference.png",
+          "sha256": "005053e59a75f3b549c59662b3cce76c1767fd694f473943031b1fdb2349f472"
+        }
+      }
+    },
+    {
+      "id": "008",
+      "files": {
+        "image": {
+          "path": "008/image.png",
+          "sha256": "d0231f61a280601c72bde2df25a8dcff2ddab514ed101386c91becb30ed5ed15"
+        },
+        "reference_latents": {
+          "path": "008/reference.pt",
+          "sha256": "59fa1ed4c287c66769b1c7bad77626613e847de40fc94ec6c8c11dec87ff084d"
+        },
+        "reference_render": {
+          "path": "008/reference.png",
+          "sha256": "a4f83fc8488ad05c0bc8490fbab807d24c0e0e00daeceeadd3fe3bf6ba6a2fdf"
+        }
+      }
+    }
+  ]
+}

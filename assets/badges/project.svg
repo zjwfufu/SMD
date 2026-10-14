@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="111" height="20" viewBox="0 0 111 20" role="img" aria-label="Project Page">
+  <title>Project Page</title>
+  <defs>
+    <clipPath id="rounded"><rect width="111" height="20" rx="3"/></clipPath>
+    <linearGradient id="surface" x2="0" y2="1"><stop stop-color="#fff" stop-opacity=".08"/><stop offset="1" stop-color="#000" stop-opacity=".05"/></linearGradient>
+  </defs>
+  <g clip-path="url(#rounded)">
+    <rect width="111" height="20" fill="#b9e4ed"/>
+    <rect width="22" height="20" fill="#555"/>
+    <rect width="111" height="20" fill="url(#surface)"/>
+  </g>
+  <g fill="none" stroke="#bce4ef" stroke-width="1"><circle cx="11" cy="10" r="6"/><ellipse cx="11" cy="10" rx="3" ry="6"/><path d="M5 10h12M6 7h10M6 13h10"/></g>
+  <text x="66.5" y="14" fill="#153e48" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="11" textLength="77" lengthAdjust="spacingAndGlyphs">Project Page</text>
+</svg>

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "utils3d",
+    "url": "https://github.com/EasternJournalist/utils3d.git",
+    "commit": "9a4eb15e4021b67b12c460c7057d642626897ec8",
+    "subdir": "."
+  },
+  {
+    "name": "nvdiffrast",
+    "url": "https://github.com/NVlabs/nvdiffrast.git",
+    "commit": "253ac4fcea7de5f396371124af597e6cc957bfae",
+    "subdir": "."
+  },
+  {
+    "name": "nvdiffrec-render",
+    "url": "https://github.com/JeffreyXiang/nvdiffrec.git",
+    "commit": "b296927cc7fd01c2ac1087c8065c4d7248f72da4",
+    "subdir": "."
+  },
+  {
+    "name": "cumesh",
+    "url": "https://github.com/JeffreyXiang/CuMesh.git",
+    "commit": "12289e1062f0603f2f0d0771b02e1395d247f26f",
+    "subdir": "."
+  },
+  {
+    "name": "flex-gemm",
+    "url": "https://github.com/JeffreyXiang/FlexGEMM.git",
+    "commit": "6dd94a859c26ee8246888502eada3dd8ad85532e",
+    "subdir": "."
+  },
+  {
+    "name": "o-voxel",
+    "url": "https://github.com/microsoft/TRELLIS.2.git",
+    "commit": "75fbf0183001ed9876c8dbb35de6b68552ee08bd",
+    "subdir": "o-voxel"
+  }
+]

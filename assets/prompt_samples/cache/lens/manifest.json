@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "kind": "preprocessed_preview",
+  "signature": "5a59996eb2aee799b629c3f9f2846c19b90f85e7c416a33c92eb8f9f7977f2cc",
+  "source": {
+    "prompts": [
+      "a cinematic photo of a red panda astronaut walking on the moon",
+      "portrait of a jazz singer under warm stage lights, 35mm film look",
+      "a tiny cabin by a snowy lake at sunrise, ultra detailed",
+      "a futuristic megacity skyline in the rain, neon reflections",
+      "a photo of two wine glasses",
+      "a photo of four stop signs",
+      "a photo of a pink handbag and a black scissors",
+      "a photo of a cow right of a laptop",
+      "A realistic photograph of a modern highway with a large billboard displaying the text \"Gas Next Exit 2 Miles\", against a backdrop of rolling hills and clear blue sky.",
+      "A close-up photograph of an engraved silver ring with the inscription \"Forever Yours\" delicately etched into its surface, set against a soft, blurred background of warm romantic tones.",
+      "A visually striking presentation slide with a minimalistic background in soft color tones. The bold title reads \"Climate Change Initiatives\". A paragraph explains \"Global efforts to combat climate change focus on renewable energy, carbon reduction policies, and sustainable development practices.\". A chart titled \"Carbon Emissions Reduction Targets\" is labelled \"USA\", \"EU\" and \"China\". A footer note states \"UN Climate Report, 2024\".",
+      "An elegant French restaurant menu on a marble tabletop. The header reads \"Le Petit Paris\". Under \"Starters\" it lists \"French Onion Soup \u2014 9 USD\" and \"Escargots \u2014 12 USD\"; under \"Main Courses\", \"Duck Confit \u2014 22 USD\" and \"Ratatouille \u2014 18 USD\"; under \"Desserts\", \"Cr\u00e8me Br\u00fbl\u00e9e \u2014 8 USD\"."
+    ]
+  },
+  "model_source": "zjwfufu/SMD-Lens",
+  "repeat_text": true,
+  "records": [
+    {
+      "id": "00",
+      "path": "00_a44a1e8a4f58e326.pt",
+      "sha256": "a44a1e8a4f58e326ff5af830ea7b5a177e4dc8bdcf0d3bbe1233299b12bdff51"
+    },
+    {
+      "id": "01",
+      "path": "01_2a2a8e01e9129597.pt",
+      "sha256": "2a2a8e01e9129597d32f1697c1d14c3785af455e7778c63aa1dc18f0c6ab3f78"
+    },
+    {
+      "id": "02",
+      "path": "02_00f229035cd9d3d3.pt",
+      "sha256": "00f229035cd9d3d38b3da0feaa111bf6408884554c1d4705f59ce53843975f6d"
+    },
+    {
+      "id": "03",
+      "path": "03_a045ff85d7548289.pt",
+      "sha256": "a045ff85d754828964726d3593ce3413e2cdc14a7e0765196d9046fc063d9aae"
+    },
+    {
+      "id": "04",
+      "path": "04_16d200b66474b97b.pt",
+      "sha256": "16d200b66474b97b859743e1a405eeff52866aa5a69f26d314436c0b9e65ca05"
+    },
+    {
+      "id": "05",
+      "path": "05_e995724f8facfd6b.pt",
+      "sha256": "e995724f8facfd6bee35234046f5dea167c30317ffde0f0fd47ef1cf1d8e7d1f"
+    },
+    {
+      "id": "06",
+      "path": "06_cbe9135a0ece5c1b.pt",
+      "sha256": "cbe9135a0ece5c1bd0b0721308dd9637feb975ae61984ce25979f5bfe301f5b0"
+    },
+    {
+      "id": "07",
+      "path": "07_79e7d744250d0e99.pt",
+      "sha256": "79e7d744250d0e99eda9ef27e52e79b948f35283cf5e0c8c1fc6928e5cd18c3b"
+    },
+    {
+      "id": "08",
+      "path": "08_472157d2348848bb.pt",
+      "sha256": "472157d2348848bb2754dc2e45f92e9e21453a6965120d63dd00f9c3e5ea9db5"
+    },
+    {
+      "id": "09",
+      "path": "09_47480758c73e68a6.pt",
+      "sha256": "47480758c73e68a6b3a1bea652802830cd72b4cf981a03b22fbe6d66eec1761a"
+    },
+    {
+      "id": "10",
+      "path": "10_04d263197994e9a4.pt",
+      "sha256": "04d263197994e9a47d105f7b712c1a78e613b472b8b0b96a9e7f0d2b36704ef6"
+    },
+    {
+      "id": "11",
+      "path": "11_3d2f90a1e8f0b826.pt",
+      "sha256": "3d2f90a1e8f0b8265aa7fc579a8bec6b3516d1210a68f94a36af29e44bcfe931"
+    }
+  ]
+}

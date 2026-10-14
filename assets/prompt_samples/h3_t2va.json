@@ -1,0 +1,10 @@
+{
+  "dataset": {
+    "dataset_path": "assets/examples/h3/t2va",
+    "loader": "smd.datasets.minimax_h3_prompt_cache.MiniMaxH3PromptCacheLoader"
+  },
+  "case_indices": [
+    0,
+    1
+  ]
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="132" height="20" viewBox="0 0 132 20" role="img" aria-label="Model Collection">
+  <title>Model Collection</title>
+  <defs>
+    <clipPath id="rounded"><rect width="132" height="20" rx="3"/></clipPath>
+    <linearGradient id="surface" x2="0" y2="1"><stop stop-color="#fff" stop-opacity=".08"/><stop offset="1" stop-color="#000" stop-opacity=".05"/></linearGradient>
+  </defs>
+  <g clip-path="url(#rounded)">
+    <rect width="132" height="20" fill="#c6d9f3"/>
+    <rect width="22" height="20" fill="#555"/>
+    <rect width="132" height="20" fill="url(#surface)"/>
+  </g>
+  <g fill="none" stroke="#d9e6f7" stroke-width="1"><rect x="6" y="5" width="4" height="4" rx=".7"/><rect x="12" y="5" width="4" height="4" rx=".7"/><rect x="6" y="11" width="4" height="4" rx=".7"/><rect x="12" y="11" width="4" height="4" rx=".7"/></g>
+  <text x="77" y="14" fill="#29486d" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="11" textLength="98" lengthAdjust="spacingAndGlyphs">Model Collection</text>
+</svg>

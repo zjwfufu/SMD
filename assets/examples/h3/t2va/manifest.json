@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "storage": "ragged_bfloat16",
+  "hidden_dim": 5120,
+  "geometry": {
+    "fps": 24.0,
+    "num_frames": 124,
+    "height": 768,
+    "width": 1344
+  },
+  "model": {
+    "id": "MiniMaxAI/MiniMax-H3:FL2VA:text_encoder",
+    "embedding": "Qwen3-VL hidden_states[50]",
+    "dtype": "bfloat16",
+    "implementation": "transformers.Qwen3VLForConditionalGeneration",
+    "attention_backend": "torch_sdpa",
+    "tensor_parallel_size": 1,
+    "equivalence": "not_bitwise_equal_to_sglang_flash_attention_tp4"
+  },
+  "tokenization": {
+    "input": "prompt",
+    "add_special_tokens": false,
+    "padding_in_storage": false,
+    "text_token_tags": "all_ones_int64"
+  },
+  "dataset": {
+    "records": 4
+  },
+  "parts": 1,
+  "shards": 1,
+  "total_tokens": 755,
+  "records_file": "records.jsonl",
+  "num_records": 4,
+  "records_sha256": "383c19b625de605505d7d12448ed33062f309b6101f5d080c8343b2cec015f55"
+}

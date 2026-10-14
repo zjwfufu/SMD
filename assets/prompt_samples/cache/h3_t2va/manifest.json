@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "kind": "preprocessed_preview",
+  "signature": "63f96b77423f56ac3ba10a965debe49e44668e8b2812df6468b6349cfe874c20",
+  "source": {
+    "dataset": {
+      "dataset_path": "assets/examples/h3/t2va",
+      "loader": "smd.datasets.minimax_h3_prompt_cache.MiniMaxH3PromptCacheLoader"
+    },
+    "case_indices": [
+      0,
+      1
+    ]
+  },
+  "model_source": "MiniMaxAI/MiniMax-H3",
+  "repeat_text": false,
+  "records": [
+    {
+      "id": "00",
+      "path": "00_567b77184d516018.pt",
+      "sha256": "567b77184d516018fbb174c45b2add2314be027b1547a3b73d0e8ce3601ad480"
+    },
+    {
+      "id": "01",
+      "path": "01_2dc7191988d5f2f6.pt",
+      "sha256": "2dc7191988d5f2f65ecbbef6bdca5fdcf0fcfc2db9fada8de082523ea09594f7"
+    }
+  ]
+}

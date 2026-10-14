@@ -1,0 +1,22 @@
+{
+  "clip_id": "53be22eb-97ff-41a6-ac2a-b4425d57edc1.mp4",
+  "condition_bytes": 39434536,
+  "condition_file": "parts/00000/ref2va_video_audio/0032d17067caf0df2680416e.safetensors",
+  "condition_sha256": "58ceb6a45174c8b7613a5e40b7a7f2c7d095b89df2b99e6d8e2dc4b913b1873c",
+  "mode": "ref2va_video_audio",
+  "model_id": "MiniMaxAI/MiniMax-H3",
+  "model_revision": "939557dc319dd91227e30195a763f272ba7f8765",
+  "pair_id": "0032d17067caf0df2680416e",
+  "presentation_audit": {
+    "dtype": "torch.bfloat16",
+    "num_text_rows": 380,
+    "num_tokens": 3848,
+    "num_vision_rows": 3468
+  },
+  "prompt": "subject_definitions:\n<Subject 1> is the mountain, calm water, and open wilderness landscape used as the reference for its camera pattern.\n<Video 1> is the existing source reference video with a slow steady rightward pan in long and extreme-long shots.\n<Audio 1> is the existing synchronized source audio, whose semantics are unverified.\nsummary:\nTransfer the slow rightward landscape pan to a newly generated desert canyon for 5.17-second output geometry.\nretention_analysis:\n<Subject 1> (mountain-and-water landscape): weak_reference - use it to define measured scenic camera behavior, not to copy the setting.\n<Video 1> (slow rightward pan and long shots): attribute_transfer - transfer the deliberate pan and expansive scale.\n<Audio 1> (unverified synchronized source audio): weak_reference - retain broad temporal alignment.\ndetailed_description:\n[Shot 1] Generate a red-rock desert canyon with a narrow reflective stream and sparse vegetation as new output subjects. Use an extreme-long establishing frame, then execute one slow, steady pan to the right that gradually reveals a sunlit canyon opening. Transfer the reference's smooth deliberate movement, spacious composition, natural realism, warm daylight, and serene pace from <Video 1>, while avoiding the source mountain and water arrangement. Output 3:4 at 5.17-second effective duration and pace the pan alongside <Audio 1> without interpreting it.\noverall_soundscape:\nUse only unverified source-audio timing; do not invent dialogue, voices, music, instruments, or concrete sound events.\nnon_diegetic_music:\nNone specified; do not add music.",
+  "prompt_sha256": "ae7fd7442abc683f3ef6b1959fbdc1c2d00ff541a9ccbe5ef7a533e06e7706a7",
+  "reference_clip_id": "53be22eb-97ff-41a6-ac2a-b4425d57edc1.mp4",
+  "schema": "minimax_h3.multimodal-condition/v1",
+  "text_encoder_layer": 50,
+  "video_sample_fps": 2.0
+}

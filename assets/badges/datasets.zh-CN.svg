@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="67" height="20" viewBox="0 0 67 20" role="img" aria-label="数据集">
+  <title>数据集</title>
+  <defs>
+    <clipPath id="rounded"><rect width="67" height="20" rx="3"/></clipPath>
+    <linearGradient id="surface" x2="0" y2="1"><stop stop-color="#fff" stop-opacity=".08"/><stop offset="1" stop-color="#000" stop-opacity=".05"/></linearGradient>
+  </defs>
+  <g clip-path="url(#rounded)">
+    <rect width="67" height="20" fill="#bce3cb"/>
+    <rect width="22" height="20" fill="#555"/>
+    <rect width="67" height="20" fill="url(#surface)"/>
+  </g>
+  <g fill="none" stroke="#cbebd7" stroke-width="1"><ellipse cx="11" cy="5.5" rx="5" ry="2"/><path d="M6 5.5v9c0 3 10 3 10 0v-9M6 10c0 3 10 3 10 0"/></g>
+  <text x="44.5" y="14" fill="#244f36" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="11" textLength="33" lengthAdjust="spacingAndGlyphs">数据集</text>
+</svg>

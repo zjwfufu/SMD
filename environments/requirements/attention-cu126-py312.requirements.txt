@@ -1,0 +1,2 @@
+# Required in the core environment; installed after Torch because its build imports Torch.
+flash-attn==2.7.4.post1

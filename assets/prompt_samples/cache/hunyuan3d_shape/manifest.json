@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "kind": "preprocessed_preview",
+  "signature": "7a5119e4b78136f90d4fa38724fb2343cb17c4f21406086c17704c9043de02e1",
+  "source": {
+    "assets": "assets/prompt_samples/hunyuan3d_shape/manifest.json"
+  },
+  "model_source": "tencent/Hunyuan3D-2.1",
+  "repeat_text": false,
+  "records": [
+    {
+      "id": "00",
+      "path": "00_b76a1bfc8bb1bcfc.pt",
+      "sha256": "b76a1bfc8bb1bcfc392dc1accea42f7cc4f9c52e7a75967dffb004b2a38e8d60"
+    },
+    {
+      "id": "01",
+      "path": "01_272e1b131936ec03.pt",
+      "sha256": "272e1b131936ec0304efe3e169918ce943d3eb2b84cb37f5ab358a514ffac4d1"
+    },
+    {
+      "id": "02",
+      "path": "02_521a16f9a11054ca.pt",
+      "sha256": "521a16f9a11054ca3dd6e06906f7dd881f82948776312f9e61f5471f9ddc5aa2"
+    },
+    {
+      "id": "03",
+      "path": "03_893467cd3ba34cf1.pt",
+      "sha256": "893467cd3ba34cf10e0ff3b2b620564d2ee2afd76fa1b207073217a8b3089eae"
+    },
+    {
+      "id": "04",
+      "path": "04_ff64a80428cd7909.pt",
+      "sha256": "ff64a80428cd79095e09ff7e11a33f0cd9c9b4854bb8f17b35c00bbfc3a0299a"
+    },
+    {
+      "id": "05",
+      "path": "05_96f32e4d822dfa2f.pt",
+      "sha256": "96f32e4d822dfa2f70a676df39e52ff385ca45629194ee1efb73063b65292a0a"
+    },
+    {
+      "id": "06",
+      "path": "06_5051634c3317ab8d.pt",
+      "sha256": "5051634c3317ab8dc5c72d133cf2a971f320b1cebc6dc71df57aa9fcc9d57f5a"
+    },
+    {
+      "id": "07",
+      "path": "07_4dc272796339faaa.pt",
+      "sha256": "4dc272796339faaa0bff16b32dedd9c0cafb8cb9b1e4888d9a0580681ed0880c"
+    }
+  ]
+}

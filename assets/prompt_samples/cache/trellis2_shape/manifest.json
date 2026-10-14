@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "kind": "preprocessed_preview",
+  "signature": "f00e3385445d3d3756f6211c332547809701b1d9aaa21cc0e4d23f3a69303fbc",
+  "source": {
+    "assets": "assets/prompt_samples/trellis2/shape.json"
+  },
+  "model_source": "microsoft/TRELLIS.2-4B",
+  "repeat_text": false,
+  "records": [
+    {
+      "id": "00",
+      "path": "00_3c3f6123825bf8cc.pt",
+      "sha256": "3c3f6123825bf8ccdcd1a8eaef58a25e4b8889c17f55f6cc6adfa0cffdf68294"
+    },
+    {
+      "id": "01",
+      "path": "01_fbcc177b6413d7d4.pt",
+      "sha256": "fbcc177b6413d7d45cc111149ebf30418f9e745d2927d680d997c0157e5145db"
+    },
+    {
+      "id": "02",
+      "path": "02_2dca4ee89944dcff.pt",
+      "sha256": "2dca4ee89944dcff534ee96c0e02e14776cd4a21ffbfc805a05af5931c27ff3a"
+    },
+    {
+      "id": "03",
+      "path": "03_12130d60a56b4321.pt",
+      "sha256": "12130d60a56b432155a1205a55c03ef990a68968e42d3bed8947ce70d6864922"
+    },
+    {
+      "id": "04",
+      "path": "04_814d1c8c7e29d5ea.pt",
+      "sha256": "814d1c8c7e29d5ea4eaa82efdf0fda47b77f4dae3b760e1d05884b6db91f5746"
+    },
+    {
+      "id": "05",
+      "path": "05_3df20ab9251c02d8.pt",
+      "sha256": "3df20ab9251c02d874ff2798904e45705977459088c6a36266e8697766f811ca"
+    },
+    {
+      "id": "06",
+      "path": "06_1714fdfbc2450859.pt",
+      "sha256": "1714fdfbc245085967e3ef2bcda5852e618b6b227121f9e1b0bb810b6fcd1a75"
+    },
+    {
+      "id": "07",
+      "path": "07_afd5587368eff392.pt",
+      "sha256": "afd5587368eff3922d5f4cf194b796f83cf85f9c73fb26db0e3e209fca83b596"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "clip_id": "424df432-8936-4bdf-96cb-b17d1feb6b3f.mp4",
+  "condition_bytes": 40008424,
+  "condition_file": "parts/00000/ref2va_video_audio/0084168dc15ea479d1954c55.safetensors",
+  "condition_sha256": "54502c5e3b85a4a63c47ee45598b62800b8c112d547a38b96fb78a1422dde47f",
+  "mode": "ref2va_video_audio",
+  "model_id": "MiniMaxAI/MiniMax-H3",
+  "model_revision": "939557dc319dd91227e30195a763f272ba7f8765",
+  "pair_id": "0084168dc15ea479d1954c55",
+  "presentation_audit": {
+    "dtype": "torch.bfloat16",
+    "num_text_rows": 436,
+    "num_tokens": 3904,
+    "num_vision_rows": 3468
+  },
+  "prompt": "subject_definitions:\n<Subject 1> is the boy with short black hair, green hoodie, red shirt, and striped socks, lying on the bench and writing in a notebook.\n<Video 1> is the existing source reference video showing the boy in the garden or patio setting.\n<Audio 1> is the existing synchronized source audio whose semantics are unverified.\nsummary:\nTransfer the reference stationary medium-shot layout into a five-second 21:9 composition, preserving the boy's writing activity, bench, white wall, potted plants, warm sunlight, and candid documentary character.\nretention_analysis:\n<Subject 1> (boy writing on bench): attribute_transfer - preserve identity, clothing, pose, and activity.\n<Video 1> (stationary outdoor composition): attribute_transfer - transfer subject placement and layout logic.\n<Audio 1> (unverified synchronized source audio): weak_reference - use only for timing.\ndetailed_description:\n[Shot 1] Arrange <Subject 1> in the exact source composition pattern of a stationary medium view, lying on the bench with notebook in hand and writing calmly. Preserve short black hair, green hoodie, red shirt, colorful striped socks, white wall, potted plants, warm sunlight, and clear natural shadows from <Video 1>. Expand to 21:9 by extending the outdoor surroundings without adding people, text, or unsupported objects; the wider layout is a new output-side choice. Use <Audio 1> only as an unverified timing reference and do not infer writing sounds, speech, music, lyrics, or instruments. Keep the action focused, candid, and peaceful, with no camera movement beyond editorial stabilization.\noverall_soundscape:\nUse <Audio 1> only for loose timing; semantics are unverified.\nnon_diegetic_music:\nNo invented music, voice, lyrics, or instruments. output_geometry.effective_duration_seconds is 5.17-second.",
+  "prompt_sha256": "be6dae8a178f2eb81694ae4271cf22a816ffb1ba32a90c0b845c7a66adcb6c6e",
+  "reference_clip_id": "424df432-8936-4bdf-96cb-b17d1feb6b3f.mp4",
+  "schema": "minimax_h3.multimodal-condition/v1",
+  "text_encoder_layer": 50,
+  "video_sample_fps": 2.0
+}

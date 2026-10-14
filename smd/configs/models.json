@@ -1,0 +1,117 @@
+{
+  "flux1_dev": {
+    "config": "smd/configs/experiments/flux1_dev.py",
+    "steps": 4,
+    "name": "FLUX.1-dev"
+  },
+  "qwen_image": {
+    "config": "smd/configs/experiments/qwen_image.py",
+    "steps": 4,
+    "name": "Qwen-Image"
+  },
+  "qwen_image_edit": {
+    "config": "smd/configs/experiments/qwen_image_edit.py",
+    "steps": 4,
+    "name": "Qwen-Image-Edit-2511"
+  },
+  "wan13": {
+    "config": "smd/configs/experiments/wan13.py",
+    "steps": 4,
+    "name": "Wan2.1 1.3B"
+  },
+  "wan14": {
+    "config": "smd/configs/experiments/wan14.py",
+    "steps": 4,
+    "name": "Wan2.1 14B"
+  },
+  "hunyuan3d_shape": {
+    "config": "smd/configs/experiments/hunyuan3d_shape.py",
+    "steps": 4,
+    "name": "Hunyuan3D Shape 2.1"
+  },
+  "trellis2_texture": {
+    "config": "smd/configs/experiments/trellis2_texture.py",
+    "steps": 4,
+    "name": "TRELLIS.2 Texture"
+  },
+  "sd35_self": {
+    "config": "smd/configs/experiments/sd35_self.py",
+    "steps": 4,
+    "name": "SD3.5-M Self"
+  },
+  "sd35_clipscore": {
+    "config": "smd/configs/experiments/sd35_clipscore.py",
+    "steps": 4,
+    "name": "SD3.5-M ClipScore-All"
+  },
+  "sd35_geneval": {
+    "config": "smd/configs/experiments/sd35_geneval.py",
+    "steps": 4,
+    "name": "SD3.5-M GenEval-All"
+  },
+  "sd35_ocr": {
+    "config": "smd/configs/experiments/sd35_ocr.py",
+    "steps": 4,
+    "name": "SD3.5-M OCR-All"
+  },
+  "sd35_pickscore": {
+    "config": "smd/configs/experiments/sd35_pickscore.py",
+    "steps": 4,
+    "name": "SD3.5-M PickScore-All"
+  },
+  "sd35_multi": {
+    "config": "smd/configs/experiments/sd35_multi.py",
+    "steps": 4,
+    "name": "SD3.5-M Multi"
+  },
+  "flux2_9b_to_4b": {
+    "config": "smd/configs/experiments/flux2_9b_to_4b.py",
+    "steps": 4,
+    "name": "Flux2 9B to 4B"
+  },
+  "flux2_4b": {
+    "config": "smd/configs/experiments/flux2_4b.py",
+    "steps": 4,
+    "name": "Flux2 4B to 4B"
+  },
+  "flux2_9b_to_lens": {
+    "config": "smd/configs/experiments/flux2_9b_to_lens.py",
+    "steps": 4,
+    "name": "Flux2 9B to Lens"
+  },
+  "lens": {
+    "config": "smd/configs/experiments/lens.py",
+    "steps": 4,
+    "name": "Lens to Lens"
+  },
+  "wan13_causal": {
+    "config": "smd/configs/experiments/wan13_causal.py",
+    "steps": 4,
+    "name": "Wan2.1 1.3B Causal"
+  },
+  "trellis2_shape": {
+    "config": "smd/configs/experiments/trellis2_shape.py",
+    "steps": 4,
+    "name": "TRELLIS.2 Shape"
+  },
+  "h3_t2va_4step": {
+    "config": "smd/configs/experiments/h3_t2va_4step.py",
+    "steps": 4,
+    "name": "MiniMax H3 T2VA 4-step"
+  },
+  "h3_t2va_8step": {
+    "config": "smd/configs/experiments/h3_t2va_8step.py",
+    "steps": 8,
+    "name": "MiniMax H3 T2VA 8-step"
+  },
+  "h3_ref2va_4step": {
+    "config": "smd/configs/experiments/h3_ref2va_4step.py",
+    "steps": 4,
+    "name": "MiniMax H3 REF2VA 4-step"
+  },
+  "h3_ref2va_8step": {
+    "config": "smd/configs/experiments/h3_ref2va_8step.py",
+    "steps": 8,
+    "name": "MiniMax H3 REF2VA 8-step"
+  }
+}

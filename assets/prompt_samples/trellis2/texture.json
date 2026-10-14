@@ -1,0 +1,380 @@
+{
+  "schema_version": 1,
+  "family": "trellis2",
+  "model_id": "microsoft/TRELLIS.2-4B",
+  "mode": "texture",
+  "shape_normalization": {
+    "mean": [
+      0.781296,
+      0.018091,
+      -0.495192,
+      -0.558457,
+      1.06053,
+      0.093252,
+      1.518149,
+      -0.933218,
+      -0.732996,
+      2.604095,
+      -0.118341,
+      -2.143904,
+      0.495076,
+      -2.179512,
+      -2.130751,
+      -0.996944,
+      0.261421,
+      -2.217463,
+      1.260067,
+      -0.150213,
+      3.790713,
+      1.481266,
+      -1.046058,
+      -1.523667,
+      -0.059621,
+      2.22078,
+      1.621212,
+      0.87723,
+      0.567247,
+      -3.175944,
+      -3.186688,
+      1.578665
+    ],
+    "std": [
+      5.972266,
+      4.706852,
+      5.44501,
+      5.209927,
+      5.32022,
+      4.547237,
+      5.020802,
+      5.444004,
+      5.226681,
+      5.683095,
+      4.831436,
+      5.286469,
+      5.652043,
+      5.367606,
+      5.525084,
+      4.730578,
+      4.805265,
+      5.124013,
+      5.530808,
+      5.619001,
+      5.10393,
+      5.41767,
+      5.269677,
+      5.547194,
+      5.634698,
+      5.235274,
+      6.110351,
+      5.511298,
+      6.237273,
+      4.879207,
+      5.347008,
+      5.405691
+    ]
+  },
+  "texture_normalization": {
+    "mean": [
+      3.501659,
+      2.212398,
+      2.226094,
+      0.251093,
+      -0.026248,
+      -0.687364,
+      0.439898,
+      -0.928075,
+      0.029398,
+      -0.339596,
+      -0.869527,
+      1.038479,
+      -0.972385,
+      0.126042,
+      -1.129303,
+      0.455149,
+      -1.209521,
+      2.069067,
+      0.544735,
+      2.569128,
+      -0.323407,
+      2.293,
+      -1.925608,
+      -1.217717,
+      1.213905,
+      0.971588,
+      -0.023631,
+      0.10675,
+      2.021786,
+      0.250524,
+      -0.662387,
+      -0.768862
+    ],
+    "std": [
+      2.665652,
+      2.743913,
+      2.765121,
+      2.595319,
+      3.037293,
+      2.291316,
+      2.144656,
+      2.911822,
+      2.969419,
+      2.501689,
+      2.154811,
+      3.163343,
+      2.621215,
+      2.381943,
+      3.186697,
+      3.021588,
+      2.295916,
+      3.234985,
+      3.233086,
+      2.26014,
+      2.874801,
+      2.810596,
+      3.29272,
+      2.674999,
+      2.680878,
+      2.372054,
+      2.451546,
+      2.353556,
+      2.995195,
+      2.379849,
+      2.786195,
+      2.77519
+    ]
+  },
+  "records": [
+    {
+      "id": "001",
+      "files": {
+        "condition": {
+          "path": "001/cond_dinov3.npy",
+          "sha256": "5f82626d9bf231f6fed17fe81882d3e1f408390876af93f86d38dd1b2fb4ddbd"
+        },
+        "coords": {
+          "path": "001/coords.npy",
+          "sha256": "2d2744364bf141f27870f838f2df6800ae00e8cf3bedf697b2f57d5daf5e1952"
+        },
+        "shape_latents": {
+          "path": "001/shape_feats.npy",
+          "sha256": "bfdde968b7c0f6ae14ae6f4a30d00b07ad7dbb0e09ad75f30a5fb8e5e3a19d04"
+        },
+        "texture_latents": {
+          "path": "001/tex_slat_raw.npy",
+          "sha256": "7c07fcf462c550781dd24ffb26c3435ae49e6542adb042fb7f5f8a62006918f5"
+        },
+        "reference_render": {
+          "path": "001/teacher_render.png",
+          "sha256": "38a57c68836158c28bbe6387b6f438892a8e50580277868d3ad251cb988b4c34"
+        },
+        "image": {
+          "path": "001/image.png",
+          "sha256": "80839a05cc487d422fa4d41de14684c111309194f236c5e242279b878d8c82c6"
+        }
+      }
+    },
+    {
+      "id": "002",
+      "files": {
+        "condition": {
+          "path": "002/cond_dinov3.npy",
+          "sha256": "c552c7d82d3e29c4a0b81c9d525e77f924bb070600bcbcb04b7cbc89f2a2a89a"
+        },
+        "coords": {
+          "path": "002/coords.npy",
+          "sha256": "1bd098938b831d492437f730f28b3fdb3f3c33fad4f51a6026b616991e6d17d8"
+        },
+        "shape_latents": {
+          "path": "002/shape_feats.npy",
+          "sha256": "851150669c571a4d474bb1d57cf211a13b6bd0bba9da20bcdc80c989e185f878"
+        },
+        "texture_latents": {
+          "path": "002/tex_slat_raw.npy",
+          "sha256": "7b7d7b6a1c6e05692152f74f9600cd251285adfff7ed13e5dfd17dd193764bfa"
+        },
+        "reference_render": {
+          "path": "002/teacher_render.png",
+          "sha256": "5099d91767148c5c5ea68a11f3e5a562081365bf714beec4b8c53901994e94e1"
+        },
+        "image": {
+          "path": "002/image.png",
+          "sha256": "f98ab2aeadd034b84b952d82c4eb789f4cbeccc0707eee4a8b44562a50aa755d"
+        }
+      }
+    },
+    {
+      "id": "003",
+      "files": {
+        "condition": {
+          "path": "003/cond_dinov3.npy",
+          "sha256": "cb9ab91f68c7ae0f64fb0b1b1ce2d7ab7398a4dbd444b8a28381253276304138"
+        },
+        "coords": {
+          "path": "003/coords.npy",
+          "sha256": "1a08f320b6d9e857a131671be107c0ab9a1366d2ec85de2fd820aa05192cbed2"
+        },
+        "shape_latents": {
+          "path": "003/shape_feats.npy",
+          "sha256": "cb7d698b26ae1d1c5deb4df0db2eee82bcd6d7ea061bb5acb2ec36d61b5ee140"
+        },
+        "texture_latents": {
+          "path": "003/tex_slat_raw.npy",
+          "sha256": "a1782a55f31cac08ef189b6b145e32f7eaf70f7f52d6ebf2b15fc33d3faf2964"
+        },
+        "reference_render": {
+          "path": "003/teacher_render.png",
+          "sha256": "7d0d8c2cee037e62a0653ffffd235fb41044cc72d114c4af2ffb8bd6be3dd146"
+        },
+        "image": {
+          "path": "003/image.png",
+          "sha256": "2548d54fad556e177cbf65c7c98f49a12888f1c1c09253a9054abc8d5cf5bf10"
+        }
+      }
+    },
+    {
+      "id": "004",
+      "files": {
+        "condition": {
+          "path": "004/cond_dinov3.npy",
+          "sha256": "b271ba98f82ac72e16ff7470f60a80132d566bba025211d8808fe1e698433386"
+        },
+        "coords": {
+          "path": "004/coords.npy",
+          "sha256": "1bf0d1ab45b9d1fb1a7452848226876079fa4b7e27aeb7ef20b1cc183fc997ca"
+        },
+        "shape_latents": {
+          "path": "004/shape_feats.npy",
+          "sha256": "2c5728709ed7607b94b7acc8535f3a90dec10e05dd22861ead75fef85a858a02"
+        },
+        "texture_latents": {
+          "path": "004/tex_slat_raw.npy",
+          "sha256": "5a7a47c48211a2657d15c0bbf3ec5c26821679c248081883ee8bf8e03fedbdfd"
+        },
+        "reference_render": {
+          "path": "004/teacher_render.png",
+          "sha256": "bb3dbe919d4f4782180286254434c0c6dc03515506ccbe953439c8bb5b5efe90"
+        },
+        "image": {
+          "path": "004/image.png",
+          "sha256": "939ab71939d17c62f782aa4e71dcbdfed4e0f82664d8eb30a17b780f5552bbf3"
+        }
+      }
+    },
+    {
+      "id": "005",
+      "files": {
+        "condition": {
+          "path": "005/cond_dinov3.npy",
+          "sha256": "5dad58da731938917fd0e3c450e161e21173a3f61f57b59365fea67d6236c41e"
+        },
+        "coords": {
+          "path": "005/coords.npy",
+          "sha256": "082cf394fc7b4f293ff93bf046931ec009ac3e6e7740c68590278609ab9f75eb"
+        },
+        "shape_latents": {
+          "path": "005/shape_feats.npy",
+          "sha256": "5ced4d1562efad4b6aac1548bab9d2cd6414fce6426a8e4539b041d30a0a00c1"
+        },
+        "texture_latents": {
+          "path": "005/tex_slat_raw.npy",
+          "sha256": "3ff2e9d00297df7b04884bb6d317ed5d4634ce3f3d055d090ef1b96dc5fd816e"
+        },
+        "reference_render": {
+          "path": "005/teacher_render.png",
+          "sha256": "f21c7bc1f741c9b29fe8028679a9cc598963a86e01fe593c36a0725ba72b15ba"
+        },
+        "image": {
+          "path": "005/image.png",
+          "sha256": "12536b38c44cc439c994215a645eaa76892634208a8d68fc261c4809802eb571"
+        }
+      }
+    },
+    {
+      "id": "006",
+      "files": {
+        "condition": {
+          "path": "006/cond_dinov3.npy",
+          "sha256": "b349693f84cd5bff11cbd188614b18e357ce98584f1688486b4d52e78e8ca315"
+        },
+        "coords": {
+          "path": "006/coords.npy",
+          "sha256": "d6d8c061e7751230c1937b6f9fbbd1457158ccc94b1b555f07aca1c0974fb27b"
+        },
+        "shape_latents": {
+          "path": "006/shape_feats.npy",
+          "sha256": "9aeef575bb7f0219e4e7d9216ecdc91250372dc46799cffc6ed4b824ae5c6841"
+        },
+        "texture_latents": {
+          "path": "006/tex_slat_raw.npy",
+          "sha256": "a287631526afca1278761cda8b07f608ec4c3a242b23a898d0533a0f9b293483"
+        },
+        "reference_render": {
+          "path": "006/teacher_render.png",
+          "sha256": "97dc09670fd2ac5a9fa5f1d8ad1527a3d6671a0521e0f6a13b2ce87fbc17a753"
+        },
+        "image": {
+          "path": "006/image.png",
+          "sha256": "c41cd529847e57dd82d10728fd36844bd2f13edb24b52848ebdb9311340d7c8f"
+        }
+      }
+    },
+    {
+      "id": "007",
+      "files": {
+        "condition": {
+          "path": "007/cond_dinov3.npy",
+          "sha256": "4a0d72ff3393db52c842f69ec494ace8371a9895295922e52def9cbe167a620b"
+        },
+        "coords": {
+          "path": "007/coords.npy",
+          "sha256": "41aab1b892cb5886fabfa2b0be027f2f9b00ce599b5a5479b346e0924ae72a51"
+        },
+        "shape_latents": {
+          "path": "007/shape_feats.npy",
+          "sha256": "8762c7faaf51fd15d0b7a07e853d429618e7eca0130f4a9a0229c439ca14b483"
+        },
+        "texture_latents": {
+          "path": "007/tex_slat_raw.npy",
+          "sha256": "4d042d34ebb204f39f22e7b287e1e4163566eb9f21981fea7dfc35e04c4a5938"
+        },
+        "reference_render": {
+          "path": "007/teacher_render.png",
+          "sha256": "d5080d5d082a2676f0fd933567551913ce46e20f6eb81957dac593b9ea8a06ee"
+        },
+        "image": {
+          "path": "007/image.png",
+          "sha256": "ac578dedd7ee2e209f824cb230bc61389f49676b62f4d536c918bb364ead68ce"
+        }
+      }
+    },
+    {
+      "id": "008",
+      "files": {
+        "condition": {
+          "path": "008/cond_dinov3.npy",
+          "sha256": "16273d9839ca6363b081296b62c6bb3e5db7b6020dc85df73b903c819479d578"
+        },
+        "coords": {
+          "path": "008/coords.npy",
+          "sha256": "f6007391b8b9eb71e57aa5bb66d3541cc5285c7a8168af933aba6b5965dccf0f"
+        },
+        "shape_latents": {
+          "path": "008/shape_feats.npy",
+          "sha256": "884888ecd97b1cbeeeb8768f03f1166fb1c73f8ac618cd252f27b1bea696e7cf"
+        },
+        "texture_latents": {
+          "path": "008/tex_slat_raw.npy",
+          "sha256": "d7fc5996b6551e00a65faf5b23e2a11abd56e28c97162689450547afcb504a02"
+        },
+        "reference_render": {
+          "path": "008/teacher_render.png",
+          "sha256": "1647f0cc07738ca0d259968d28d5305613172e40e5adf2b229d700b194e8e1ac"
+        },
+        "image": {
+          "path": "008/image.png",
+          "sha256": "8fef8204ec73ecb7764f87bfd8076387918da29c161d9de9bbff79d38aa12f72"
+        }
+      }
+    }
+  ]
+}

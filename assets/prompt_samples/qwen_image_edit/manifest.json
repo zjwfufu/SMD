@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "family": "qwen_image_edit",
+  "model_id": "Qwen/Qwen-Image-Edit-2511",
+  "records": [
+    {
+      "id": "001",
+      "files": {
+        "source": {
+          "path": "001/source.png",
+          "sha256": "ac36b02b0e1387e97a268f726e249b6c468ab2a4660c0c8a3bcac068986710af"
+        },
+        "target": {
+          "path": "001/target.png",
+          "sha256": "1dc3d13a67afd2242a6816faf9b57e3ad5969bd2e9e14f206768184224eab138"
+        },
+        "prompt": {
+          "path": "001/prompt.txt",
+          "sha256": "5140a3bf4710d3e2ae07c9b8a5679cf1df6237a9369bb5c379c386dffbf34d9d"
+        }
+      }
+    },
+    {
+      "id": "002",
+      "files": {
+        "source": {
+          "path": "002/source.png",
+          "sha256": "25c3a115acf3bb044652ccb17fd298333dbfbaf9dfc8e50d7a64030eb2bf747b"
+        },
+        "target": {
+          "path": "002/target.png",
+          "sha256": "5c5c1e04acd9e5b2877c1502263b2d10c3109ed442aa9b4cdc8137ec8283091f"
+        },
+        "prompt": {
+          "path": "002/prompt.txt",
+          "sha256": "5384ac5ed477ce10614f38822722f687e7314825caabdd1bbbc2e1256947e150"
+        }
+      }
+    },
+    {
+      "id": "003",
+      "files": {
+        "source": {
+          "path": "003/source.png",
+          "sha256": "0881e2b06f6639040e84a21b2965c286fcc25b55a15d4a26e6c5fcad7b5fb484"
+        },
+        "target": {
+          "path": "003/target.png",
+          "sha256": "455fc571f64892596c49c8c177303d5626b0925a0628ccafe4199dc9f484ba67"
+        },
+        "prompt": {
+          "path": "003/prompt.txt",
+          "sha256": "ac04cfd2e1bec5851100d5ce4756d784d4b6ac48cc98c69a9d83c24ed56f507c"
+        }
+      }
+    },
+    {
+      "id": "004",
+      "files": {
+        "source": {
+          "path": "004/source.png",
+          "sha256": "690d748a25eb2f34884c75018fda44e7266d0509860798683c31e7e4812ab910"
+        },
+        "target": {
+          "path": "004/target.png",
+          "sha256": "a92e075cb87f797eff6a41b5e7fd904893f6eecce414600a62546f7744231ad8"
+        },
+        "prompt": {
+          "path": "004/prompt.txt",
+          "sha256": "d7593df5560a89a1dfab8b2c33a054f3c0bbda18d478a00ef240366b950e025c"
+        }
+      }
+    },
+    {
+      "id": "005",
+      "files": {
+        "source": {
+          "path": "005/source.png",
+          "sha256": "90782f01c86527b80afd91eaa263c3ace74a48e090bb502dae59c8cacc71c09c"
+        },
+        "target": {
+          "path": "005/target.png",
+          "sha256": "c8987f3d39fde5639fc861bdea7ef0a95df7d85e976b79477cf886aad608bd61"
+        },
+        "prompt": {
+          "path": "005/prompt.txt",
+          "sha256": "27a64bf41b0051c4f496b45e425694e6b8b12d9d9f0447bdbf28b0925ed54d86"
+        }
+      }
+    },
+    {
+      "id": "006",
+      "files": {
+        "source": {
+          "path": "006/source.png",
+          "sha256": "3da8c70844451c2f96d68141118841bd3a67ef90c29452fb19352e20b3c7e8bf"
+        },
+        "target": {
+          "path": "006/target.png",
+          "sha256": "69cea1cea171deeea8810a59d60a66bcbe3158f8704e38e15a7f88fce20a43d2"
+        },
+        "prompt": {
+          "path": "006/prompt.txt",
+          "sha256": "f6637114446d2cc0f0d6390b0952139e51636d0aa00fa946b2fcbed6736f02c2"
+        }
+      }
+    },
+    {
+      "id": "007",
+      "files": {
+        "source": {
+          "path": "007/source.png",
+          "sha256": "9463de40b91e9fe374617d448b8002bcf45d2ce1aed39d1a1b8d37eb2b0cda19"
+        },
+        "target": {
+          "path": "007/target.png",
+          "sha256": "7712ecc188abca9a7620b7daae17615190fbcfc60ecf3dfd3b7d49d356da5a48"
+        },
+        "prompt": {
+          "path": "007/prompt.txt",
+          "sha256": "e4da6fced7bd1d2542ff8cdea7a06cc72c47bdf7c91fceb9122cb302317b40de"
+        }
+      }
+    },
+    {
+      "id": "008",
+      "files": {
+        "source": {
+          "path": "008/source.png",
+          "sha256": "5455cffed47129e1b1af75890544f88e8b59e2ec384d14402fe0bd992bb147f0"
+        },
+        "target": {
+          "path": "008/target.png",
+          "sha256": "9eb3b8e86203b94dcb69b091ac4a19561c604ab4844dbca1d4ba7dc03599656f"
+        },
+        "prompt": {
+          "path": "008/prompt.txt",
+          "sha256": "c9dde0c12c84600e969a2aa1ffa50f0c998f3d37a2a7e292db4470b6dbf868c7"
+        }
+      }
+    }
+  ]
+}

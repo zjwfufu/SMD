@@ -1,0 +1,15 @@
+# Additional dependencies; retain environments/requirements/core-cu126-py312.constraints.txt.
+# CUDA extensions are pinned by commit in 3d-sources.json and installed separately.
+easydict==1.13
+trimesh==4.12.2
+kornia==0.8.2
+kornia-rs==0.1.14
+lpips==0.1.4
+zstandard==0.25.0
+scikit-image==0.25.2
+lazy-loader==0.5
+tifffile==2025.5.10
+imageio-ffmpeg==0.6.0
+plyfile==1.1.3
+moderngl==5.12.0
+glcontext==3.0.0

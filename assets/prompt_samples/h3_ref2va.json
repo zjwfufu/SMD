@@ -1,0 +1,11 @@
+{
+  "dataset": {
+    "dataset_path": "assets/examples/h3/ref2va/release",
+    "verify_payload_hashes": true,
+    "loader": "smd.datasets.minimax_h3_ref2va_onpolicy_cache.MiniMaxH3Ref2VAOnPolicyLoader"
+  },
+  "case_indices": [
+    0,
+    1
+  ]
+}

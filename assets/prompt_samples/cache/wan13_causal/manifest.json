@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "kind": "preprocessed_preview",
+  "signature": "062e4a0f8ba4d9d0f86b4b8253212f879624780e5d0b96388c2783824a6232c7",
+  "source": {
+    "prompts": [
+      "A vibrant scene of Kenyan golfers at a lush green golf course on a sunny day.",
+      "A group of friends playing golf on a tropical course surrounded by palm trees.",
+      "Athletes practicing on a sunlit sports field with green grass and blue sky.",
+      "A serene park scene with people walking along tree-lined paths on a warm afternoon.",
+      "A sleek, modern bicycle with a matte black frame and aerodynamic design begins its journey on a smooth, sunlit road. The rider, clad in a fitted, neon green cycling suit and helmet, leans forward, gripping the handlebars tightly. The camera captures the initial slow pedal strokes, the wheels spinning with increasing speed. As the bicycle accelerates, the background blurs, emphasizing the rapid motion. The rider's muscles tense and flex, showcasing the effort and determination. The sunlight glints off the bike's frame and the rider's helmet, creating a dynamic interplay of light and shadow. The sound of the wind rushing past and the rhythmic clicking of the gears enhance the sensation of speed and exhilaration.",
+      "In a lush, vibrant savannah, a majestic bear with a thick, glossy coat stands beside a striking zebra with bold black and white stripes. The bear, with its powerful build and gentle eyes, appears curious as it sniffs the air, while the zebra, with its graceful stance and alert ears, seems equally intrigued by its unusual companion. The sun casts a golden glow over the scene, highlighting the rich textures of their fur and the intricate patterns of the zebra's stripes. In the background, acacia trees dot the landscape, and a distant herd of zebras grazes peacefully, adding to the surreal yet harmonious encounter between these two magnificent creatures.",
+      "A vintage bicycle with a wicker basket leans against a rustic wooden fence in a sunlit meadow, wildflowers blooming around its wheels. In the background, a sleek, modern airplane soars gracefully through a clear blue sky, leaving a delicate contrail behind. The scene transitions to a close-up of the bicycle's intricate spokes and leather saddle, capturing the essence of timeless craftsmanship. As the camera pans upward, the airplane's silhouette becomes more defined against the setting sun, casting a golden glow over the landscape. The final shot juxtaposes the grounded bicycle with the airborne plane, symbolizing the harmony between earthbound simplicity and the boundless freedom of flight.",
+      "A bright yellow city bus, filled with weary commuters, is stuck in bumper-to-bumper traffic on a bustling urban street during rush hour. The scene captures the frustration of the passengers, some peering out the windows, others engrossed in their phones. The bus is surrounded by a sea of cars, honking and inching forward, with towering skyscrapers and neon signs illuminating the twilight sky. Street vendors and pedestrians weave through the congestion, adding to the chaotic atmosphere. The camera zooms in on the bus driver, his face a mix of determination and resignation, as the city's vibrant yet overwhelming energy pulses around him."
+    ]
+  },
+  "model_source": "Wan-AI/Wan2.1-T2V-1.3B-Diffusers",
+  "repeat_text": true,
+  "records": [
+    {
+      "id": "00",
+      "path": "00_e135f722fe8771bd.pt",
+      "sha256": "e135f722fe8771bda7bc4bfc7703764c64d33ab4c1dc4ef458b818ea1c833d50"
+    },
+    {
+      "id": "01",
+      "path": "01_5428c2c2c87c9aaf.pt",
+      "sha256": "5428c2c2c87c9aaff149ae0846c0315f189fcf9a034a0dfe27e8eee74c38107c"
+    },
+    {
+      "id": "02",
+      "path": "02_c850ddcd83815cba.pt",
+      "sha256": "c850ddcd83815cbadbcea1c69b29fd6afed1ab770497b0208cda9af86abe2387"
+    },
+    {
+      "id": "03",
+      "path": "03_59cc197d06780ab1.pt",
+      "sha256": "59cc197d06780ab1377ff5c617b865b1e6c9bd91f71b2b5d82ba6c7f79de9cda"
+    },
+    {
+      "id": "04",
+      "path": "04_120508b11161f839.pt",
+      "sha256": "120508b11161f83901f67b30eb9cc84972de6170e72554fbd22c0b179bd48122"
+    },
+    {
+      "id": "05",
+      "path": "05_cbdbe4411860a509.pt",
+      "sha256": "cbdbe4411860a509a540fd6965c4df4a1b3df97a08bb7fe365d6c013273dac49"
+    },
+    {
+      "id": "06",
+      "path": "06_0f5b84b07b08c172.pt",
+      "sha256": "0f5b84b07b08c17227727747b39db30f65b05f7859a7783b6a8a92365ff17a1f"
+    },
+    {
+      "id": "07",
+      "path": "07_ecbdb589019c6c60.pt",
+      "sha256": "ecbdb589019c6c60106011ad31b9ea88ea1f3806885ba7c33d2998492efbd927"
+    }
+  ]
+}

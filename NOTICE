@@ -1,0 +1,10 @@
+This repository includes source adapted from NVIDIA FastGen and Hugging Face Diffusers, with original copyright and license notices retained.
+
+Wan-derived files: licenses/Wan.
+TRELLIS.2 sparse infrastructure and model adaptations: licenses/TRELLIS.2.
+Hunyuan3D-2.1-derived files retain Tencent's original notices and separate license: licenses/Hunyuan3D-2.1, including hy3dshape/LICENSE and NOTICE.
+Additional reused utility code: licenses/detectron2 and licenses/diffusers.
+MiniMax H3 transformer, packed layout, scheduler and audio/video autoencoders:
+copyright MiniMax and Hugging Face contributors, Apache-2.0; original notices
+are retained in smd/networks/MiniMaxH3. See licenses/diffusers/LICENSE.
+Upstream MiniMax H3 project: https://github.com/MiniMax-AI/MiniMax-H3.

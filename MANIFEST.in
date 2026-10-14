@@ -1,0 +1,19 @@
+include README.md MODEL_CARD.md LICENSE NOTICE pyproject.toml requirements.txt train.py infer.py
+recursive-include environments *.txt *.json *.py *.sh *.md
+recursive-include assets *.md *.py *.exr *.json *.txt *.png *.npz *.parquet *.tar
+recursive-include assets/examples/h3 *.jsonl *.safetensors
+recursive-include assets/evaluation *.jsonl
+recursive-include tools *.py *.sh *.md
+recursive-include licenses *
+recursive-include .agents/skills *.md
+recursive-exclude assets/prompt_samples *.pt *.png *.npy
+recursive-exclude assets/examples/h3 *.safetensors
+prune LOCAL_DEV
+prune aml
+prune amlt
+prune tests
+prune outputs
+prune checkpoints
+prune wandb
+global-exclude *.pyc *.pyo __pycache__ .DS_Store
+exclude AGENTS.md

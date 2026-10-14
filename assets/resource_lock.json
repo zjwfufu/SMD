@@ -1,0 +1,118 @@
+{
+  "resources": {
+    "repo_id": "zjwfufu/SMD-Prompt-Sample-Resources",
+    "repo_type": "dataset",
+    "private": false,
+    "revision": "0905e84bf5ff62df1fffffe8affd4f125d6b336e"
+  },
+  "teachers": {
+    "clipscore": {
+      "repo_id": "zjwfufu/SMD-SD3.5-Medium",
+      "revision": "2bb3be44d98a0de0169c1e90e2656cdb4f83275a",
+      "files": {
+        "adapter_model.safetensors": {
+          "bytes": 75156544,
+          "sha256": "ea02bb9991870fa59ecc836af4455ec661a4bdf10dbb3bcbb855bbd09677437b"
+        },
+        "adapter_config.json": {
+          "bytes": 882,
+          "sha256": "588a3bcba6220f16857451008234109204b34b92d6b9459c129c0d1598994f41"
+        }
+      },
+      "method": "DiffusionNFT",
+      "license_status": "Adapter-specific license not established; follow base model terms and resolve before public redistribution.",
+      "subfolder": "teachers/clipscore"
+    },
+    "geneval": {
+      "repo_id": "jieliu/SD3.5M-FlowGRPO-GenEval",
+      "revision": "f821fec9af2e209776b77105d03f2db6620f6134",
+      "files": {
+        "adapter_model.safetensors": {
+          "bytes": 75156544,
+          "sha256": "2b8e99f141dbd328308bbfbed9a58fe4663e5dea93ef5dcc9a8eba29bebc56aa"
+        },
+        "adapter_config.json": {
+          "bytes": 882,
+          "sha256": "d87a486f7a2c5cf3feb81d82bace6f94ea6fc5d7499b4520d438856b5eb3f2ed"
+        }
+      },
+      "method": "Flow-GRPO",
+      "license_status": "Adapter-specific license not established; follow base model terms and resolve before public redistribution."
+    },
+    "ocr": {
+      "repo_id": "jieliu/SD3.5M-FlowGRPO-Text",
+      "revision": "1a0e6426ac8b8f53347ac66d0d544a1fc2253791",
+      "files": {
+        "adapter_model.safetensors": {
+          "bytes": 75156544,
+          "sha256": "a82776def305a94d7caa3f7164852bab70c749a5a3ec6de3ab5ee7b5e2d9427e"
+        },
+        "adapter_config.json": {
+          "bytes": 882,
+          "sha256": "3498723f85aa83d755415ff899840ed12708835222e5bea3bc3f320f35ced3b3"
+        }
+      },
+      "method": "Flow-GRPO",
+      "license_status": "Adapter-specific license not established; follow base model terms and resolve before public redistribution."
+    },
+    "pickscore": {
+      "repo_id": "jieliu/SD3.5M-FlowGRPO-PickScore",
+      "revision": "10c56697459bbdbe54d5e375912f49a0bcfae773",
+      "files": {
+        "adapter_model.safetensors": {
+          "bytes": 75156544,
+          "sha256": "70c3e23605e252734cf5a560f6fa401af00e86c31f979feb6de6e60b278566e0"
+        },
+        "adapter_config.json": {
+          "bytes": 882,
+          "sha256": "931015607c3996eefc0dc29011b9fe03b0e907dcf761bb6e1494bf5a6be402e4"
+        }
+      },
+      "method": "Flow-GRPO",
+      "license_status": "Adapter-specific license not established; follow base model terms and resolve before public redistribution."
+    }
+  },
+  "experiment_teachers": {
+    "sd35_clipscore": [
+      "clipscore"
+    ],
+    "sd35_geneval": [
+      "geneval"
+    ],
+    "sd35_ocr": [
+      "ocr"
+    ],
+    "sd35_pickscore": [
+      "pickscore"
+    ],
+    "sd35_multi": [
+      "clipscore",
+      "geneval",
+      "ocr",
+      "pickscore"
+    ]
+  },
+  "checkpoints": {
+    "causal_forcing_chunkwise": {
+      "repo_id": "zhuhz22/Causal-Forcing",
+      "revision": "2f8eb8bb6eeb1238da9d13e5420d342a74d634a6",
+      "files": {
+        "causal_forcing/ar_diffusion.pt": {
+          "filename": "chunkwise/ar_diffusion.pt",
+          "bytes": 5676282643,
+          "sha256": "dc9abfd679263b6a22236b9468603e7eaf3df50893f83700ff597a2ab5a6275d"
+        },
+        "causal_forcing/causal_ode.pt": {
+          "filename": "chunkwise/causal_ode.pt",
+          "bytes": 5676282643,
+          "sha256": "34a8aa8e078a7782ad9496991f44daac17c6bb13b83a1214292872186f8a941a"
+        }
+      }
+    }
+  },
+  "family_checkpoints": {
+    "wan13_causal": [
+      "causal_forcing_chunkwise"
+    ]
+  }
+}
