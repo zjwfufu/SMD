@@ -126,3 +126,14 @@ Our causal Wan implementation builds on Self Forcing and uses the chunkwise init
 See [LICENSE](LICENSE), [NOTICE](NOTICE) and [third-party licenses](licenses) for code licensing and attribution.
 
 Model weights, teacher adapters and datasets retain their upstream licenses.
+
+## Citation
+
+```bibtex
+@article{smd,
+  title   = {Simplifying and Improving On-Policy Distillation for Few-Step Diffusion},
+  author  = {Jiawei Zhang and Ziyu Wan and Nanye Ma and Long Zhao and Dong Chen and Hongyu Liu and Qifeng Chen and Dongdong Chen},
+  year    = {2026},
+  journal = {arXiv preprint arXiv:2610.18472},
+}
+```

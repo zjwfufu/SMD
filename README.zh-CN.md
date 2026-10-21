@@ -126,3 +126,14 @@ SMD 的训练代码建立在 [NVIDIA FastGen](https://github.com/NVlabs/FastGen)
 代码许可和第三方版权声明见 [LICENSE](LICENSE)、[NOTICE](NOTICE) 和[第三方许可](licenses)。
 
 模型权重、教师适配器和数据集沿用各自的上游许可。
+
+## 引用
+
+```bibtex
+@article{smd,
+  title   = {Simplifying and Improving On-Policy Distillation for Few-Step Diffusion},
+  author  = {Jiawei Zhang and Ziyu Wan and Nanye Ma and Long Zhao and Dong Chen and Hongyu Liu and Qifeng Chen and Dongdong Chen},
+  year    = {2026},
+  journal = {arXiv preprint arXiv:2610.18472},
+}
+```
